@@ -41,7 +41,7 @@ jobs:
     needs: test
 
     environment:
-      name: production
+      name: test
 
     steps:
       - name: Checkout Code
